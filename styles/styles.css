@@ -1,4 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.movielist {
+  margin: 30px; 
+}
+
+.movielist-entry {
+  padding: 20px 0 20px 30px;
+  border: .5px solid gray;
+}
+
 .navbar {
-  background: gray;
-  height: 200px;
+  background: #e3e6ea;
+  color: black;
+  height: 20px;
+  padding: 20px 0 20px 20px;
+}
+
+.search {
+  margin: 30px;
+}
+
+.search-button {
+  border-radius: 0 3px 3px 0;
+  border: .5px solid gray;
+  padding: 5px 5px;
+}
+
+.search-input {
+  border-radius: 3px 0 0 3px;
+  border: .5px solid gray;
+  padding: 5px 20px 5px 10px;
 }
