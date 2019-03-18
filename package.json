@@ -4,7 +4,7 @@
   "description": "Making movie titles in React",
   "scripts": {
     "start": "npm run build | live-server",
-    "build": "babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline"
+    "build": "babel . --watch --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2",
